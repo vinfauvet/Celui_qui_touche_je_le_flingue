@@ -1,0 +1,123 @@
+/* **********************************************************************ALL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* *******************************************************************header */
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #7E7F83;
+  height: 150px;
+}
+
+.bouton_header {
+  height: 50px;
+  width: 50px;
+  background-color: #E3E3E0;
+}
+
+
+/* ****************************************************header haut */
+
+.haut_h {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.h_partie_gauche {
+  height: 100%;
+  width: 87%;
+  display: flex;
+  justify-content: center;
+}
+
+.h_partie_droite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 13%;
+  border: 5px solid #E3E3E0;
+  border-top: none;
+  border-right: none;
+  border-left: 10px solid #E3E3E0;
+}
+
+.Panier {
+  background-image: url('/images/panier.png');
+}
+
+.Liste_de_souhait {
+  background-image: url('/images/kdo.png');
+}
+
+.Compte {
+  background-image: url('/images/compte.png');
+}
+
+/* *****************************************************header Bas */
+
+.bas_h {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.b_partie_gauche {
+  height: 100%;
+  width: 87%;
+  background-color: #E3E3E0;
+  border-top: 7px solid #7E7F83;
+}
+
+.b_partie_gauche ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.b_partie_gauche a, .b_partie_gauche li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 40%;
+}
+
+.b_partie_gauche a:hover, .active a {
+  background-color: #7E7F83;
+}
+
+.b_partie_droite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 13%;
+  border: 5px solid #E3E3E0;
+  border-bottom: none;
+  border-right: none;
+  border-left: 10px solid #E3E3E0;
+}
+
+
+
+/* *******************************************************************Footer */
+
+
+
+footer {
+  height: 70px;
+  background-color: black;
+}

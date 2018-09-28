@@ -1,0 +1,52 @@
+/* **********************************************************************ALL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zone {
+  height: 500px;
+  width: 1000px;
+  margin: 50px;
+  border: 1px black solid;
+  background-color: #A1A5B2;
+  display: flex;
+  flex-direction: column;
+}
+
+/* *******************************************************************Equipe */
+
+.equipe_haut {
+  height: 50%;
+  width: 100%;
+}
+
+.equipe_bas {
+  height: 50%;
+  width: 100%;
+}
+
+/* ********************************** Parti haut de la zone equipe */
+
+.logo:root{
+--height-logo: 50px;
+height: var(--height-logo);
+width: var(--height-logo);
+background-color: white;
+border-radius: 100%;
+}
+
+.description{
+
+
+}

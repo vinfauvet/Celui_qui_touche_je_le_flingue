@@ -1,0 +1,122 @@
+<%include header%>
+  <main>
+    <div class="slide">
+      <div class="anim" id="slide">
+
+        <img src="images/slide1.jpg" height="400px" width="700px" class="img">
+        <img src="images/slide2.jpg" height="400px" width="700px" class="img">
+        <img src="images/slide3.jpg" height="400px" width="700px" class="img">
+      </div>
+      <img src="images/fleche_g.png" class="fleche1" onclick="gauche()">
+      <img src="images/fleche_d.png" class="fleche2" onclick="droite_fleche()">
+
+    </div>
+
+    <!-- ******************************************************* categories -->
+
+    <div class="categorie_dev">
+      <div class="param">
+        <div class="filtre">
+          <p class="nom_filtre" id="nom_filtre">Catégorie</p>
+          <button type="button" onclick="cache()"class="fleche_cat"></button>
+        </div>
+        <div class="recherche">
+          <button type="button" class="icone"></button>
+          <input type="text" name="recherche" class="barre">
+        </div>
+
+      </div>
+      <div class="equipe">
+
+        <!-- *******************************Zone haut des equipes -->
+
+        <div class="cat_equipe">
+    <a class="dev" href="/equipe/equipe1">
+
+
+            <div class="equipe1 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 1</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+        </a>
+      <a class="dev" href="/equipe/equipe2">
+
+
+            <div class="equipe2 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 2</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+      <a class="dev" href="/equipe/equipe3">
+
+
+            <div class="equipe3 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 3</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+          </a>
+        </div>
+        <!-- ********************************Zone bas des équipes -->
+        <div class="cat_equipe">
+          <a class="dev" href="/equipe/equipe4">
+
+
+            <div class="equipe4 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 4</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+        </a>
+        <a class="dev" href="/equipe/equipe5">
+
+
+            <div class="equipe5 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 5</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+          </a>
+        <a class="dev" href="/equipe/equipe6/8">
+
+
+            <div class="equipe6 eq">
+
+            </div>
+            <div class="descr">
+              <p>Équipe 6</p>
+              <p>bla bla bla</p>
+              <p>bla bla bla</p>
+            </div>
+          </a>
+        </div>
+        <div class="filtre_categorie" id="filtre_categorie">
+          <button type="button" onclick="RPG()" class="btouton_cat">RPG</button>
+          <button type="button" onclick="Simulation()" class="btouton_cat">Simulation</button>
+          <button type="button" onclick="Combat()" class="btouton_cat">Combat</button>
+          <button type="button" onclick="Plateforme()" class="btouton_cat">Plateforme</button>
+          <button type="button" onclick="Gestion()" class="btouton_cat">Gestion</button>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+  <script src="JS/script_accueil.js" charset="utf-8"></script>
+  <%include footer%>
